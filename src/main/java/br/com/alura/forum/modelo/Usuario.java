@@ -50,6 +50,7 @@ public class Usuario implements UserDetails {
 				return false;
 		} else if (!id.equals(other.id))
 			return false;
+			
 		return true;
 	}
 
